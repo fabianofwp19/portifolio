@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProductionsCards";
 import Particle from "../Particle";
 import Space_run from "../../Assets/Productions/sol.gif";
-import Franksauro from "../../Assets/Productions/Franksauro.png";
+import Burger from "../../Assets/Productions/burger.png";
 import Rolamento_fann from "../../Assets/Productions/duas.png";
 import Lixuria from "../../Assets/Productions/Lixuria.png";
 
@@ -35,10 +35,10 @@ function Productions() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={Franksauro}
+              imgPath={Burger}
               isBlog={false}
-              title="Franksauro"
-              ghLink="https://youtu.be/Dd3uhwNBIGU?si=zF098Q7x5PMXvMDQ"
+              title="Burger"
+              ghLink="https://youtu.be/6LEAdC6moNQ?si=saOixfhwP_XOkkcn"
               // demoLink="#"
             />
           </Col>
