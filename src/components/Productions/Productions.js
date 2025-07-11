@@ -4,7 +4,7 @@ import ProjectCard from "./ProductionsCards";
 import Particle from "../Particle";
 import Space_run from "../../Assets/Productions/sol.gif";
 import Franksauro from "../../Assets/Productions/Franksauro.png";
-import Nota_voz from "../../Assets/Productions/nota de voz.png";
+import Rolamento_fann from "../../Assets/Productions/duas.png";
 import Lixuria from "../../Assets/Productions/Lixuria.png";
 
 function Productions() {
@@ -53,10 +53,10 @@ function Productions() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={Nota_voz}
+              imgPath={Rolamento_fann}
               isBlog={false}
-              title="Só Mais Uma Nota de Voz"
-              ghLink="https://youtu.be/oc_qpdh9Cok?si=t6JKwKVTJXwXPVjA"
+              title="Rolamentos FANN"
+              ghLink="https://www.youtube.com/shorts/f5wAA32DKus"
               // demoLink="#"
             />
           </Col>
