@@ -6,6 +6,7 @@ import Space_run from "../../Assets/Productions/sol.gif";
 import Burger from "../../Assets/Productions/burger.png";
 import Rolamento_fann from "../../Assets/Productions/duas.png";
 import Lixuria from "../../Assets/Productions/Lixuria.png";
+import Montserrat from "../../Assets/Productions/montserrat.png"
 
 function Productions() {
   return (
@@ -44,10 +45,10 @@ function Productions() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={Lixuria}
+              imgPath={Montserrat}
               isBlog={false}
-              title="Lixúria: Ribeirão Preto Sob Uma Pespectiva Social e Urbana"
-              ghLink="https://youtu.be/Flsva2dXGDM?si=iULsbn11BGNxvwYG"
+              title="Montserrat Restaurant Commercial"
+              ghLink="https://youtu.be/Y2Ld980KJfU"
               // demoLink="#"
             />
           </Col>
@@ -57,6 +58,15 @@ function Productions() {
               isBlog={false}
               title="Rolamentos FANN"
               ghLink="https://www.youtube.com/shorts/f5wAA32DKus"
+              // demoLink="#"
+            />
+          </Col>
+           <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={Lixuria}
+              isBlog={false}
+              title="Lixúria: Ribeirão Preto Sob Uma Pespectiva Social e Urbana"
+              ghLink="https://youtu.be/Flsva2dXGDM?si=iULsbn11BGNxvwYG"
               // demoLink="#"
             />
           </Col>
