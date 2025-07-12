@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Space_run from "../../Assets/Productions/sol.gif";
 import Burger from "../../Assets/Productions/burger.png";
 import Rolamento_fann from "../../Assets/Productions/duas.png";
-import Lixuria from "../../Assets/Productions/Lixuria.png";
+import Lixuria from "../../Assets/Productions/lix.png";
 import Montserrat from "../../Assets/Productions/montserrat.png"
 
 function Productions() {
@@ -56,7 +56,7 @@ function Productions() {
             <ProjectCard
               imgPath={Rolamento_fann}
               isBlog={false}
-              title="Rolamentos FANN"
+              title="Duas Rodas Video Promo"
               ghLink="https://www.youtube.com/shorts/f5wAA32DKus"
               // demoLink="#"
             />
